@@ -1,15 +1,6 @@
 html {
     background: linear-gradient(to top right, #290f70, #02534f,  #290f70);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
-}
-
-body {
-    margin: 10px;
-    padding: 10px;
-    color: azure;
 }
 
 .juegos {
@@ -18,13 +9,6 @@ body {
     align-items: center;
     margin: 20px;
     padding: 10px;
-    width: 420px;
-    height: 300px;
-    border: 5px solid rgb(37, 3, 41);
-    border-radius: 15px;
-}
-
-.juego1 {
 }
 
 .boton {
@@ -41,11 +25,36 @@ body {
     background-color: black;
 }
 
-.juego2 {
-    display: flex;
+.juego1 {
+    padding: 10px;
+    width: 450px;
+    height: 300px;
+    border: 5px solid rgb(37, 3, 41);
+    border-radius: 15px;
+
 }
 
 img {
     width: 80px;
     height: 80px;
+}
+
+.juego3 {
+}
+
+.grid2 {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-color: blueviolet;
 }
